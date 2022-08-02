@@ -1,5 +1,5 @@
-# EUFH-Template
-EUFH LaTeX Template
+# EUFH-LaTeX-Template
+EUFH LaTeX Template für Seminararbeiten
 
 Basierend auf folgender Vorlage: https://github.com/andygrunwald/FOM-LaTeX-Template
 <br>
