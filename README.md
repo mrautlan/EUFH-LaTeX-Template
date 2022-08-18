@@ -5,7 +5,7 @@ Basierend auf folgender Vorlage: https://github.com/andygrunwald/FOM-LaTeX-Templ
 <br>
 Dokumentationen zur Verwendung des Templates bitte obigem Repository entnehmen.
 
-<b>Work in progress! Kein vollständiges Template.</b>
+<b>⚠️ Work in progress! Kein vollständiges Template.</b>
 
 Das Template wird fortlaufend basierend auf dem aktuellen EUFH-Leitfaden für wissenschaftliche Arbeiten angepasst.
 
@@ -23,4 +23,4 @@ Die Vorlage ist mit https://de.overleaf.com/ getestet und kompiliert worden, sie
 <br>
 Die Datei ```thesis_main.pdf``` ist ein Beispiel-Output der Vorlage.
 
-### Ich gebe keine Garantie zur Richtigkeit bzw. Vollständigkeit!
+### ❗Ich gebe keine Garantie zur Richtigkeit bzw. Vollständigkeit❗
