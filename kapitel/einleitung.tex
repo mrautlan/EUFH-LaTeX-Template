@@ -1,5 +1,31 @@
 \newpage
 \section{Einleitung}
+Dies ist ein indirektes Zitat. \footcite[Vgl.][S. 12]{Mustermann2022} Zitate mit Fußnoten werden automatisch aufsteigend im Literaturverzeichnis angeordnet.
+\newline
+\newline
+Eine Abkürzung, welche im Literaturverzeichnis auftaucht sieht wie folgt aus:
+\newline
+\newline
+Development and Operations (DevOps) \nomenclature{DevOps}{Development and Operations}
+\newline
+\newline
+Es können außerdem Grafiken eingefügt werden:
+\begin{figure}[H]
+\centering
+\includegraphics[width=5cm]{abbildungen/eufh.jpeg} %Mit \linewidth kann ein Bild über die ganze Breite der Seite eingefügt werden
+\caption[EUFH Logo]{EUFH Logo\protect\footnotemark}
+\end{figure}
+\footnotetext{{In Anlehnung an \emph{Mustermann, M.} et al., 2022, S. 123.}}
+\nocite{Mustermann2022}
+Grafiken werden automatisch im Abbildungsverzeichnis aufgenommen und aufsteigend sortiert.
+\newline
+\newline
+Es können außerdem Listen angefertigt werden. Diese sehen wie folgt aus:
+\begin{itemize}
+    \item Punkt 1
+    \item Punkt 2
+    \item Punkt 3
+\end{itemize}
 \subsection{Problemstellung}
 \subsection{Zielsetzung}
 \subsection{Aufbau der Arbeit}

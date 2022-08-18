@@ -1,5 +1,5 @@
 %-----------------------------------
-% Define document and include general packages
+% Definition des Dokumentes und Einbindung benötigter Pakete
 %-----------------------------------
 % Tabellen- und Abkürzungsverzeichnis stehen normalerweise nicht im
 % Inhaltsverzeichnis. Gleiches gilt für das Abkürzungsverzeichnis (siehe unten).
@@ -14,7 +14,7 @@
 %-----------------------------------
 % Dokumentensprache
 %-----------------------------------
-%\def\FOMEN{}% Auskommentieren um die Dokumentensprache auf deutsch zu ändern
+%\def\EUFHEN{}% Einkommentieren um die Dokumentensprache nach Englisch zu ändern
 \newif\ifde
 \newif\ifen
 
@@ -61,8 +61,8 @@
 % Default Font
 %\renewcommand\familydefault{\sfdefault}
 
-% Times New Roman Font
- \renewcommand{\rmdefault}{ptm}
+% Times New Roman Font, EUFH Vorgabe
+\renewcommand{\rmdefault}{ptm}
 \usepackage{ragged2e}
 
 % Mehrere Fussnoten nacheinander mit Komma separiert
@@ -206,7 +206,6 @@ mincrossrefs = 1
 %-----------------------------------
 \usepackage{appendix}
 
-
 %-----------------------------------
 % Zeilenabstand 1,5-zeilig
 %-----------------------------------
@@ -226,7 +225,7 @@ mincrossrefs = 1
 % Abkürzungsverzeichnis
 %-----------------------------------
 \usepackage[intoc]{nomencl}
-\renewcommand{\nomname}{Abkürzungsverzeichnis}
+\renewcommand{\nomname}{\langde{Abkürzungsverzeichnis}\langen{List of Abbreviations}}
 
 \setlength{\nomlabelwidth}{.20\textwidth}
 \renewcommand{\nomlabel}[1]{#1 \dotfill}
@@ -343,16 +342,19 @@ mincrossrefs = 1
 %-----------------------------------
 \listoffigures
 \newpage
+
 %-----------------------------------
 % Tabellenverzeichnis
 %-----------------------------------
 %\listoftables
 %\newpage
 %-----------------------------------
+
 % Abkürzungsverzeichnis
 %-----------------------------------
 \printnomenclature
 \newpage
+
 %-----------------------------------
 % Glossar
 %-----------------------------------
@@ -374,6 +376,7 @@ mincrossrefs = 1
 % Der Befehl ist also nur zum Test der Skripte sinnvoll und muss bei echten
 % Arbeiten entfernt werden.
 %\nocite{*}
+
 %-----------------------------------
 % Kapitel / Inhalte
 %-----------------------------------
@@ -386,6 +389,7 @@ mincrossrefs = 1
 %\newpage
 %\section*{\langde{Anhang}\langen{Appendix}} %Überschrift "Anhang", ohne Nummerierung
 %\addcontentsline{toc}{section}{\langde{Anhang}\langen{Appendix}} %Den Anhang ohne Nummer zum Inhaltsverzeichnis hinzufügen
+
 \begin{appendices}
 % Nachfolgende Änderungen erfolgten aufgrund von Issue 163
 \makeatletter
@@ -441,5 +445,8 @@ mincrossrefs = 1
 %\printbibliography[type=online,heading=bibintoc,title={Internetquellen}]
 \printbibliography[type=online,title={\langde{Internetquellen}\langen{Internet sources}}]
 
+%-----------------------------------
+% Eidesstattliche Erklärung (In elektronischen Versionen von Arbeiten wird diese nicht verwendet)
+%-----------------------------------
 %\input{kapitel/anhang/erklaerung}
 \end{document}
