@@ -20,4 +20,7 @@ Im Verzeichnis ```skripte``` befindet sich die Datei ```meta.tex```, in der Vari
 <br>
 Die Vorlage ist mit https://de.overleaf.com/ getestet und kompiliert worden, sie funktioniert aber dennoch lokal -> Voraussetzung hierfür ist eine LaTeX Installation.
 <br>
+<br>
+Die Datei ```thesis_main.pdf``` ist ein Beispiel-Output der Vorlage.
+
 ### Ich gebe keine Garantie zur Richtigkeit bzw. Vollständigkeit!
